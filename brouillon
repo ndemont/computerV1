@@ -1,0 +1,49 @@
+project/
+├── cmd/
+│   └── equation_solver/
+│       ├── main.go
+│       ├── parser.go
+│       ├── solver.go
+│       └── printer.go
+├── internal/
+│   ├── equation/
+│   │   ├── equation.go
+│   │   └── equation_test.go
+│   ├── solver/
+│   │   ├── solver.go
+│   │   └── solver_test.go
+│   └── printer/
+│       ├── printer.go
+│       └── printer_test.go
+├── pkg/
+│   └── math/
+│       ├── math.go
+│       └── math_test.go
+├── test/
+│   ├── unit/
+│   │   ├── internal/
+│   │   │   ├── equation/
+│   │   │   │   ├── equation_test.go
+│   │   │   │   └── ...
+│   │   │   ├── solver/
+│   │   │   │   ├── solver_test.go
+│   │   │   │   └── ...
+│   │   │   └── printer/
+│   │   │       ├── printer_test.go
+│   │   │       └── ...
+│   │   ├── pkg/
+│   │   │   ├── math/
+│   │   │   │   ├── math_test.go
+│   │   │   │   └── ...
+│   │   │   └── ...
+│   │   └── cmd/
+│   │       └── equation_solver/
+│   │           ├── parser_test.go
+│   │           ├── solver_test.go
+│   │           └── ...
+│   └── integration/
+│       ├── test1.go
+│       └── test2.go
+├── Makefile
+├── go.mod
+└── README.md
